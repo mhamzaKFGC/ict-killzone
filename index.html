@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading Kill Zones Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Trading Kill Zones</h1>
+
+    <div class="toggle-view">
+        <button onclick="toggleTimeView()">Switch to Local Time</button>
+    </div>
+
+    <div class="clock-box">
+        <div><strong>EST Time:</strong> <span id="est-time"></span></div>
+        <div><strong>Local Time:</strong> <span id="local-time"></span></div>
+    </div>
+
+    <div class="kill-zones-header">
+        <h2>Kill Zones</h2>
+        <button><a target="_blank" href="https://innercircletrading.blog/what-is-ict-killzone-in-trading/">Visit Blog</a></button>
+    </div>
+    <div id="zones"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
